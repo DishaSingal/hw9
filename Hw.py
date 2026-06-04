@@ -4,7 +4,7 @@ class Instrument:
     def __init__(self, name):
         self.name = name 
 
-    def speak(self):
+    def play_sound(self):
          pass
 
     def display(self):
@@ -28,13 +28,8 @@ class Drum(Instrument):
 instrument_1 = Guitar("Acoustic Guitar")
 instrument_2 = Drum("Bass drum")
 
-instrument_1.display_info()
-instrument_1.play_sound()
-
-print()
-
-instrument_2.display_info()
-instrument_2.play_sound()
+for x in (instrument_1,instrument_2)
+x.play_sound()
 
 print()
 
